@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'dst';
+    src: url('dstpro-thin-webfont.eot');
+    src: url('dstpro-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dstpro-thin-webfont.woff') format('woff'),
+         url('dstpro-thin-webfont.ttf') format('truetype'),
+         url('dstpro-thin-webfont.svg#dst_pro_thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fg';
+    src: url('fg-book-webfont.eot');
+    src: url('fg-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fg-book-webfont.woff') format('woff'),
+         url('fg-book-webfont.ttf') format('truetype'),
+         url('fg-book-webfont.svg#fgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fg';
+    src: url('fg-bookitalic-webfont.eot');
+    src: url('fg-bookitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fg-bookitalic-webfont.woff') format('woff'),
+         url('fg-bookitalic-webfont.ttf') format('truetype'),
+         url('fg-bookitalic-webfont.svg#fgitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'fg';
+    src: url('fg-demi-webfont.eot');
+    src: url('fg-demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fg-demi-webfont.woff') format('woff'),
+         url('fg-demi-webfont.ttf') format('truetype'),
+         url('fg-demi-webfont.svg#fgdemi') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fg';
+    src: url('fg-demiitalic-webfont.eot');
+    src: url('fg-demiitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fg-demiitalic-webfont.woff') format('woff'),
+         url('fg-demiitalic-webfont.ttf') format('truetype'),
+         url('fg-demiitalic-webfont.svg#fgdemioblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'lenny';
+    src: url('lenny-bold-webfont.eot');
+    src: url('lenny-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lenny-bold-webfont.woff') format('woff'),
+         url('lenny-bold-webfont.ttf') format('truetype'),
+         url('lenny-bold-webfont.svg#lenny-boldregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lenny';
+    src: url('lenny-thin-webfont.eot');
+    src: url('lenny-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lenny-thin-webfont.woff') format('woff'),
+         url('lenny-thin-webfont.ttf') format('truetype'),
+         url('lenny-thin-webfont.svg#lenny-thinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
