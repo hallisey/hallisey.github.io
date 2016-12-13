@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>The Invisible Majority</title>
+		<meta name="description" content="">
+		<meta name="author" content="OCHA Visual Information Unit">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="http://www.unocha.org/sites/default/files/ochaonline_theme_favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="http://www.unocha.org/sites/default/files/ochaonline_theme_favicon.ico">
+		
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto+Slab:100,300,400,700|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet"> 
+		
+		<!-- D3 Lib -->
+		<script src="http://d3js.org/d3.v3.min.js"></script>
+		
+		<!-- jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" charset="utf-8"></script>
+		
+		<!--Tipsy -->
+		<script src="js/tipsy.js"></script>
+		
+		<!--Modernizr -->
+		<script src="js/modernizr-2.7.1.min.js" id="modernizr-js"></script>
+		
+		<!--Skrollr -->
+		<script src="js/skrollr.js" id="skrollr-js"></script>
+		
+		<!--Add styles-->
+		<link type="text/css" rel="stylesheet" href="css/idp.css"/>
+	</head>
+
+	<body>
+		<section id="home">
+			<header data--500-top="background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 );" data-top-bottom="background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(0,0,0,1) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(0,0,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 );" data-anchor-target="#home">
+				<div class="wrapper">
+					<img src="img/img-ocha-logo.svg" id="ocha-logo"/>
+					<nav>
+						<div class="wrapper">
+						   <a href="#" class="show navbutton" tabindex="0"></a>
+						   <a href="#" class="hide navbutton" tabindex="1"></a>
+							<ul id="menu">
+								<li><a href="#">Introduction</a>
+									<ul>
+				                    	<li><a href="#">Menu item</a></li>
+				                     	<li><a href="#">Menu item</a></li>
+				                     	<li><a href="#">Menu item</a></li>
+				                	</ul>
+								</li>
+								<li><a href="#">Who Are IDPs?</a>
+									<ul>
+				                    	<li><a href="#">Menu item</a></li>
+				                     	<li><a href="#">Menu item longer</a></li>
+				                     	<li><a href="#">Menu item</a></li>
+				                     	<li><a href="#">Menu item</a></li>
+				                     	<li><a href="#">Menu item</a></li>
+				                	</ul>
+								</li>
+								<li><a href="#numbers">IDPs by the Numbers</a></li>
+								<li><a href="#">A Call to Action</a></li>
+						   </ul>
+						</div><!--end .wrapper-->
+					</nav>
+				</div><!--end .wrapper-->
+			</header>
+			<div id="logoarea">
+				<img src="img/img-logo-invisiblemajority.svg" id="logo" alt="" data--500-top="opacity:0;" data-center="opacity:1;" data-anchor-target="#home"/>
+				<img src="img/img-logo-invisiblemajority-vert.svg" id="logo-vert" alt="" data--500-top="opacity:0;" data-center="opacity:1;" data-anchor-target="#home"/>
+				<p class="nexttext"><a href="#">NEXT: What is an Internally Displaced Person (IDP)?</a><br/><span class="downarrow">ˇ</span></p>
+			</div>
+		</section>
+		<!--<video autoplay loop preload="auto" poster="img/transparency.png" id="backgroudvid">
+			<source src="vid/mexico-grain-vintage.mp4" type="video/mp4">
+		</video>-->
+		
+		<section class="content" id="about-IDPs">
+			<div class="wrapper col col2" style="position:relative;">
+				<div>
+					<h1 class="ocha-blue">What is an Internally Displaced Person (IDP)?</h1>
+					<p>“Internal displacement is a situation in which persons have been forced or obliged to flee or to leave their homes, in particular as a result of, or in order to avoid, the effects of armed conflict, situations of generalised violence, violations of human rights or human-made disasters, and who have not crossed an internationally recognised state border.”</p> 
+					<p class="attribution">(Guiding Principles of Internal Displacement, United Nations, 1998, E/CN.4/1998/53/Add.2)</p>
+				</div>
+				<hr class="clearfix"/>
+			</div>
+			
+			<div class="wrapper col col2" style="position:relative;">
+				<div>
+					<h2>What are the causes of internally displaced persons?</h2>
+				</div>
+				<div></div>
+				<div class="clearfix">
+					<p>Conflict and violence and lack of respect for international humanitarian law remain the root causes of displacement, but other factors such as natural disasters, climate change and, in some cases, demographic and economic growth are forcing more and more people to flee their homes. Natural disasters displaced some 19.2 million people in 2015.</p>
+				</div>
+				<div>
+					<p>Today the likelihood of being displaced by a natural disaster is 60 per cent higher than it was four decades ago. The World Humanitarian Summit issued a strong call to the support the Platform on Disaster Displacement (follow up to the Nansen Initiative) to strengthen the protection of people forcibly displaced by natural disasters, included those linked to climate change.</p>
+				</div>
+				<hr class="clearfix"/>
+			</div>
+			
+			<div class="wrapper col col2">
+				<div>
+					<h2>Internally displaced persons vs. refugees</h2>
+				</div>
+				<img src="img/img-idp-infographic.svg"/>
+			</div>
+			
+		</section>
+		<section class="content" id="numbers" data-top="opacity:0;" data--1000-bottom="opacity:1;" data-anchor-target="#home">
+			<div class="wrapper" style="position:relative;">
+				<div id="map-content">
+					<h1>Internally Displaced Persons By the Numbers</h1>
+					<p>Hit iusandae dollignia con nimaionsed magnatetur? Tium fuga. Nulla quatibusa venis si de eos quas sam que que con prehend estius quia duciend itissum doles es acia a delibusam estiam que volorempore non et quam eaquos voluptios ant eates quia alis expliscipis ernam quideleces esti rem que cullibus acilibus et eiusdae eos alis eturitinim nonseque maios quoditae simos dolore, sin cupti unto cone ab ipitionserum aut et alitatem estinvel et.</p>
+					<h2 class="subtitle">Global Displacement Comparison by Country</h2>
+					<p>Click on a country or pie chart to view the global displacement comparison by year.</p>
+					<select id="years">
+						<!--years insert here-->
+					</select>
+					<div id="map-infos">
+						<h1></h1>
+						<div id="text-data">
+							<div id="pictogram">
+								<!--insert pictogram here-->
+							</div>
+							<p><span class="idp-total"></span> total displaced persons in <span class="map-infos-year"></span></p>
+						</div><!--end text-data-->
+						
+					</div><!--end map-infos-->
+				</div><!--end map-content-->
+				
+				<div id="data-categories">
+					<input type="checkbox" class="cat-selector" value="tot_idp_conflict" id="tot_idp_conflict_checkbox" name="conflict" checked /><label id="tot_idp_conflict_label" for="tot_idp_conflict_checkbox">Conflict-Based IDPs</label>
+					<input type="checkbox" class="cat-selector" value="tot_new_idp_disaster" id="tot_new_idp_disaster_checkbox" name="disaster" checked /><label id="tot_new_idp_disaster_label" for="tot_new_idp_disaster_checkbox">Disaster-Based IDPs</label>
+					<input type="checkbox" class="cat-selector" value="tot_refugees_hosted" id="tot_refugees_hosted_checkbox" name="hosted" checked/><label id="tot_refugees_hosted_label" for="tot_refugees_hosted_checkbox">Refugees Hosted</label>
+					<input type="checkbox" class="cat-selector" value="tot_refugess_originated" id="tot_refugees_originated_checkbox" name="origin" /><label id="tot_refugees_originated_label" for="tot_refugees_originated_checkbox">Refugee Origin</label>
+					<p>Click on the buttons above to toggle the data displayed.</p>
+				</div>
+				
+				<div id="map1" class="map" tabindex="0"></div>
+				
+				<div id="chart-title">
+					<h2 class="subtitle">Displacement Trends by Year</h2>
+					<p>Click on a year to view the global displacement comparison by country.</p>
+					<select id="countries">
+						<!--countries insert here-->
+					</select>
+				</div>
+				
+				<div id="graph1" class="chart"></div>
+			</div><!--end wrapper-->
+		</section>
+		
+		
+		<footer>
+			<div class="wrapper">
+				<p>&copy; Copyright 2016 United Nations Office for the Coordination of Humanitarian Affairs</p>
+			</div>
+		</footer>
+		
+		
+		<!--IDP JS-->
+		<script>
+			// define the json files		
+			var json = "js/idp_refugee_master.geojson";
+			var world_poly = "js/world-simple-poly.geojson";
+			var world_line = "js/country-lines.geojson";
+			
+			// define the container IDs
+			var id = "#graph1";
+			var map = "#map1";
+						
+			// define array of column name and text to replace them
+			var columns = {
+				"tot_idp_conflict":"Conflict-Based IDPs",
+				"tot_new_idp_disaster":"Disaster-Based IDPs",
+				"tot_refugees_hosted":"Refugees Hosted",
+				"tot_refugees_originated":"Refugees Originating From"
+			};
+			
+			if (Modernizr.touch) { 
+			    // do stuff here if necessary
+			} else {
+			    skrollr.init({forceHeight:false});
+			}
+		</script>
+		<script src="js/scrolling.js" id="scrolling-js"></script>
+		<script src="js/idp.js"></script>
+		
+	</body>
+</html>
